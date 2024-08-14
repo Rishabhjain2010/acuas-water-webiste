@@ -1,9 +1,12 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap'; 
+import Button from './button' ;
+
 const NavbarAndHero = () => {
   return (
     <div className="relative p-0">
-      <nav className="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0 bg-white shadow-md">
+      <nav className="navbar navbar-expand-lg bg-img navbar-light px-4 px-lg-5 py-3 py-lg-0 bg-0 shadow-md">
+        
         <a href="" className="navbar-brand p-0">
           <h1 className="text-primary text-3xl font-bold">
             <i className="fas fa-hand-holding-water me-3"></i>Acuas
@@ -38,23 +41,24 @@ const NavbarAndHero = () => {
           </div>
           <button className="btn btn-primary btn-md-square d-flex flex-shrink-0 mb-3 mb-lg-0 rounded-full me-3" data-bs-toggle="modal" data-bs-target="#searchModal">
             <i className="fas fa-search"></i>
-          </button>
-          <a href="" className="btn btn-primary rounded-full py-2 px-4">Order Now</a>
+          </button >
+          <a href="" className="rounded-full py-2 px-4">Order Now</a>
         </div>
       </nav>
 
       <div className="relative overflow-hidden">
         <Carousel>
           <Carousel.Item>
-            <img src="img/carousel-1.jpg" className="d-block w-full" alt="Image" />
+            <img src="img/carousel-1.jpg" className="d-block w-full -pt-20" alt="Image" />
             <Carousel.Caption className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-black bg-opacity-50 p-5 text-end text-white">
               <h4 className="text-primary text-lg font-bold mb-4">Importance life</h4>
               <h1 className="text-4xl font-bold mb-4">Always Want Safe Water For Healthy Life</h1>
               <p className="mb-5 text-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
               <div className="flex justify-end">
-                <a className="btn btn-primary rounded-full py-3 px-5 me-2" href="#">Order Now</a>
+                <button className="btn btn-primary rounded-full py-3 px-5 me-2" href="#">Order Now</button> 
                 <a className="btn btn-secondary rounded-full py-3 px-5 ms-2" href="#">Free Estimate</a>
               </div>
+              {/* <Button/>  */}
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -67,6 +71,7 @@ const NavbarAndHero = () => {
                 <a className="btn btn-primary rounded-full py-3 px-5 me-2" href="#">Order Now</a>
                 <a className="btn btn-secondary rounded-full py-3 px-5 ms-2" href="#">Free Estimate</a>
               </div>
+              {/* <Button/> */}
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>

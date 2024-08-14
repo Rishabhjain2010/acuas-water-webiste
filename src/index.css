@@ -47,6 +47,10 @@
     background: #ffffff;
   }
   
+  .btn-secondary{
+    border-radius: 50%;
+    background: #19409a;
+  }
   @media (max-width: 992px) {
     .owl-nav .owl-prev, .owl-nav .owl-next {
       top: -30px;

@@ -8,7 +8,7 @@ const Service = () => {
           <h4 className="text-uppercase text-blue-600">Our Service</h4>
           <h1 className="text-4xl font-bold mb-6">Protect Your Family with Best Water</h1>
         </div>
-        <div className="flex flex-wrap -mx-4">
+        <div className="flex flex-wrap -mx-4 s ">
           <div className="lg:w-1/3 xl:w-1/4 px-4 mb-8 lg:mb-0">
             <div className="relative bg-white rounded-lg shadow-lg p-6 overflow-hidden group">
               <div className="flex items-center">

@@ -3,6 +3,10 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}", // Adjust paths as necessary
   ],
   theme: {
+    
+    backgroundImage: {
+        'nav': "url('../public/images/packTrain.jpg')",
+      },
     extend: {
       colors: {
         dark: '#343a40 ',
@@ -11,6 +15,7 @@ module.exports = {
         white: '#ffffff',
         light: '#f8f9fa',
         secondary: '#6c757d',
+        
       },
       spacing: {
         '30': '30px',
